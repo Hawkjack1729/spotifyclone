@@ -38,6 +38,7 @@ nav ul {
 }
 
 .text {
+    color:#FFFFFF;
     font-family: 'Water Brush', cursive;
     font-weight: bold;
     font-size: 20px;
@@ -58,7 +59,7 @@ nav ul {
     background-size: cover;
 }
 .bottom {
-    /* position: sticky; */
+    position: sticky;
     background-color:rgba(169, 161, 153, 0.4);
     height: 140px;
     bottom: 0;
