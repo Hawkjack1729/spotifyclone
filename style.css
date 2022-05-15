@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Nunito+Sans&family=Varela+Round&family=Water+Brush&display=swap');
+
+body {
+    background-color: whitesmoke;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Koulen', cursive;
+    background-color: rgba(169, 161, 153, 0.4);
+    border-radius: 0 0 2rem 2rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+}
+
+.brand img {
+    width: 44px;
+    margin-left: 3px;
+}
+
+.text {
+    font-family: 'Water Brush', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+    border-radius: 2rem;
+    width: 70%;
+    margin: 2.5vh auto;
+    min-height: 70vh;
+    background-color: rgba(169, 161, 153, 0.4);
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: 3px 7px 7px 7px rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+.bottom {
+    /* position: sticky; */
+    background-color:rgba(169, 161, 153, 0.4);
+    height: 140px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem 2rem 0 0;
+    overflow: hidden;
+}
+#progress_bar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    padding: 10px;
+}
+.play,.forward,.backward{
+    margin: 8px 14px;
+    height: 30px;
+    cursor: pointer;
+}
